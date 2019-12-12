@@ -2,9 +2,9 @@
 
 Simple data comparsion and composition library
 
-[![build status](https://badgen.net/travis/ibitcy/update-list?icon=travis)](https://travis-ci.org/ibitcy/update-list)
-[![npm bundlephobia minzip](https://badgen.net/bundlephobia/minzip/update-list@latest?icon=awesome)
-![npm version](https://badgen.net/npm/v/update-list?icon=npm&color=blue)](https://www.npmjs.com/package/update-list)
+[![build status](https://badgen.net/travis/ibitcy/update-data?icon=travis)](https://travis-ci.org/ibitcy/update-data)
+[![npm bundlephobia minzip](https://badgen.net/bundlephobia/minzip/update-data@latest?icon=awesome)
+![npm version](https://badgen.net/npm/v/update-data?icon=npm&color=blue)](https://www.npmjs.com/package/update-data)
 
 # Install
 
