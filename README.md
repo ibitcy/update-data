@@ -20,13 +20,13 @@ yarn add update-data
 
 ### `updateList`
 
-Updates array with a new array by compare, and compete between records
+Updates array with a new array by match, and compete functions between records
 
 ```typescript
 function updateList<T>(
   listOld: T[],
   listNew: T[],
-  compareFn: (itemOld: T, nitemNew: T) => boolean,
+  matchFn: (itemOld: T, nitemNew: T) => boolean,
   competeFn?: (itemOld: T, itemNew: T) => boolean,
 ): T[];
 ```
