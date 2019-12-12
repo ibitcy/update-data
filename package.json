@@ -5,7 +5,7 @@
   "private": false,
   "name": "update-data",
   "sideEffects": false,
-  "repository": "https://github.com/ibitcy/react-store.git",
+  "repository": "https://github.com/ibitcy/update-data.git",
   "keywords": [
     "array",
     "data",
