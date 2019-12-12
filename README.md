@@ -40,8 +40,8 @@ const docs = [
 ];
 
 const update = [
-  { id: '1', title: 'Document 1', status: 'upd', updated: new Date(6000) },
-  { id: '3', title: 'Document 3', status: 'new', updated: new Date(5000) },
+  { id: '1', title: 'Document 1', status: 'upd', updated: new Date(3000) },
+  { id: '3', title: 'Document 3', status: 'new', updated: new Date(4000) },
 ];
 
 console.log(
@@ -62,7 +62,7 @@ console.log(
     id: '1',
     title: 'Document 1',
     status: 'upd', // <--- New value
-    updated: '1970-01-01T00:00:06.000Z', // <--- New value
+    updated: '1970-01-01T00:00:03.000Z', // <--- New value
   },
   {
     id: '2',
