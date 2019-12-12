@@ -45,40 +45,38 @@ const update = [
 ];
 
 console.log(
-  JSON.stringify(
-    updateList(
-      docs,
-      update,
-      (docOld, docNew) => docNew.id === docOld.id,
-      (docOld, docNew) => docNew.updated.getTime() > docOld.updated.getTime(),
-    ),
+  updateList(
+    docs,
+    update,
+    (docOld, docNew) => docNew.id === docOld.id,
+    (docOld, docNew) => docNew.updated.getTime() > docOld.updated.getTime(),
   ),
 );
 ```
 
 #### Result
 
-```json
+```javascript
 [
   {
-    "id": "1",
-    "title": "Document 1",
-    "status": "upd", // <--- New value
-    "updated": "1970-01-01T00:00:06.000Z" // <--- New value
+    id: '1',
+    title: 'Document 1',
+    status: 'upd', // <--- New value
+    updated: '1970-01-01T00:00:06.000Z', // <--- New value
   },
   {
-    "id": "2",
-    "title": "Document 2",
-    "status": "old",
-    "updated": "1970-01-01T00:00:02.000Z"
+    id: '2',
+    title: 'Document 2',
+    status: 'old',
+    updated: '1970-01-01T00:00:02.000Z',
   },
 
   // New record
   {
-    "id": "3",
-    "title": "Document 3",
-    "status": "new",
-    "updated": "1970-01-01T00:00:05.000Z"
-  }
-]
+    id: '3',
+    title: 'Document 3',
+    status: 'new',
+    updated: '1970-01-01T00:00:05.000Z',
+  },
+];
 ```
