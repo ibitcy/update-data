@@ -76,7 +76,7 @@ console.log(
     id: '3',
     title: 'Document 3',
     status: 'new',
-    updated: '1970-01-01T00:00:05.000Z',
+    updated: '1970-01-01T00:00:04.000Z',
   },
 ];
 ```
